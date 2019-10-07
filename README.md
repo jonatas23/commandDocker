@@ -1,8 +1,12 @@
 # Comandos básicos no dia a dia para Docker
 
+<p> Docker é uma plataforma open source na linguagem de programação Go, que possui alto desempenho e é desenvolvida diretamente no Google. Tecnologia usada para criação e uso de containers Linux.  </p>
+
 <details>
     <summary>1.	Containers </summary>
-  
+    <br>
+    O container é um ambiente isolado.
+    
     Containers:  
     docker container <COMANDO>
   
@@ -17,6 +21,8 @@
     * prune - Remova todas os containers parados
 
     Ex:
+    > docker ps
+    > docker container ls
     > docker container run <NOME/ID IMAGE>
     > docker container stop < NOME/ID IMAGE>
     > docker container rm < NOME/ID IMAGE>
@@ -25,7 +31,9 @@
 
 <details>
     <summary>2.	Images </summary>
-
+    <br>
+    De uma forma bem resumida a image é um template em camadas para rodar um container.
+    
     Images:
     docker image <COMANDO>
 
