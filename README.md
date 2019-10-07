@@ -50,7 +50,7 @@
 
 <details open>
     <summary>3.	Network </summary>
-    <h4> Docker nos permite criar um ou mais redes </h4>
+    <h4> Docker nos permite criar uma ou mais redes </h4>
     
     Network:
     docker image <COMANDO>
