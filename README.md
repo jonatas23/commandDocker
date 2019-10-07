@@ -72,7 +72,7 @@
     Diversos:
     
     Ex:
-    > docker exec -it < NOME/ID IMAGE> bash – Executar um comando em um contêiner em execução.
+    > docker exec -it < NOME/ID IMAGE> bash – Executar comando em um contêiner em execução.
     > docker version - Liste informações sobre as versões do Docker Client e Server.
     > docker system prune - Exclua todos os contêineres, redes e imagens não utilizadas/ pendentes
 </details>
