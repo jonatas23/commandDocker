@@ -2,7 +2,7 @@
 
 <p> Docker é uma plataforma open source na linguagem de programação Go, que possui alto desempenho e é desenvolvida diretamente no Google. Tecnologia usada para criação e uso de containers Linux.  </p>
 
-<details>
+<details open>
     <summary>1.	Containers </summary>
     <h4> O container é um ambiente isolado. </h4>
     
@@ -28,7 +28,7 @@
     > docker container logs –f < NOME/ID IMAGE>        
 </details>
 
-<details>
+<details open>
     <summary>2.	Images </summary>
     <h4>De uma forma bem resumida a image é um template em camadas para rodar um container.</h4>
     
@@ -48,7 +48,7 @@
     > docker image inspect < NOME/ID IMAGE>
 </details>
 
-<details>
+<details open>
     <summary>3.	Network </summary>
     <h4> Docker nos permite criar um ou mais redes </h4>
     
@@ -66,7 +66,7 @@
     > docker network ls 
 </details>
 
-<details>
+<details open>
     <summary>4.	Diversos </summary>
 
     Diversos:
