@@ -13,7 +13,7 @@
     * create — Crie um novo container.
     * start — Start an existing container.
     * run — Crie um novo contêiner e inicie-o.
-    * ls — Listar contêineres em execução.
+    * ls ou ps — Listar contêineres em execução.
     * logs — Print logs.
     * stop — Para container.
     * kill — Mate um ou mais contêineres em execução.
