@@ -16,6 +16,7 @@
     * rm — Excluir um contêiner parado.
     * prune - Remova todas os containers parados
 
+    Ex:
     > docker container run <NOME/ID IMAGE>
     > docker container stop < NOME/ID IMAGE>
     > docker container rm < NOME/ID IMAGE>
@@ -35,6 +36,7 @@
     * rm — Remova uma ou mais images
     * prune - Remova todas as images não utilizadas
 
+    Ex:
     > docker images ls
     > docker image rm < NOME/ID IMAGE>
     > docker image inspect < NOME/ID IMAGE>
@@ -52,6 +54,7 @@
     * rm — Remova uma ou mais redes
     * prune - Remova todas as redes não utilizadas
 
+    Ex:
     > docker network create < NOME NETWORK>
     > docker network ls 
 </details>
@@ -60,6 +63,8 @@
     <summary>4.	Diversos </summary>
 
     Diversos:
+    
+    Ex:
     > docker exec -it < NOME/ID IMAGE> bash – Executar um comando em um contêiner em execução.
     > docker version - Liste informações sobre as versões do Docker Client e Server.
     > docker system prune - Exclua todos os contêineres, redes e imagens não utilizadas/ pendentes
