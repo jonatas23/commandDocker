@@ -30,7 +30,7 @@
 
 <details open>
     <summary>2.	Images </summary>
-    <h4>De uma forma bem resumida a image é um template em camadas para rodar um container.</h4>
+    <h4>De uma forma bem resumida a image é um template em camadas para executar um container.</h4>
     
     Images:
     docker image <COMANDO>
