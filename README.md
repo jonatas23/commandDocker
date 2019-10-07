@@ -4,8 +4,7 @@
 
 <details>
     <summary>1.	Containers </summary>
-    <br>
-    O container é um ambiente isolado.
+    <h4> O container é um ambiente isolado. </h4>
     
     Containers:  
     docker container <COMANDO>
@@ -31,8 +30,7 @@
 
 <details>
     <summary>2.	Images </summary>
-    <br>
-    De uma forma bem resumida a image é um template em camadas para rodar um container.
+    <h4>De uma forma bem resumida a image é um template em camadas para rodar um container.</h4>
     
     Images:
     docker image <COMANDO>
@@ -52,7 +50,8 @@
 
 <details>
     <summary>3.	Network </summary>
-
+    <h4> Docker nos permite criar um ou mais redes </h4>
+    
     Network:
     docker image <COMANDO>
 
