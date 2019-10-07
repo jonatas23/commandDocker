@@ -73,6 +73,10 @@
     
     Ex:
     > docker exec -it < NOME/ID IMAGE> bash – Executar comando em um contêiner em execução.
+    > docker run --name <NAME CONTAINER> -it <IMAGEM> - O Docker executa processos em contêineres isolados.
+    > docker ps -a - Lista todos os containers existentes no host
     > docker version - Liste informações sobre as versões do Docker Client e Server.
     > docker system prune - Exclua todos os contêineres, redes e imagens não utilizadas/ pendentes
+
+
 </details>
